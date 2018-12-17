@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <!-- Dependencies From Vendor-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .card{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<a href="/">Home</a>
+    <p><span th:text="${executionTime}"></span> ms. Execution Time</p>
+    <!--<p>Results for <span th:text="${totalCalories}"></span> calories</p>-->
+    <h4>Powered by Nutritionix </h4><a href="https://www.nutritionix.com">Website</a>
+        <div class="card" th:each="knapsackResult : ${knapsackResults}">
+            <p>Meal: <span th:text="${knapsackResult.mealName}"></span> </p>
+            <p><span th:text="${knapsackResult.calories}"></span> Calories</p>
+                <p><span th:text="${knapsackResult.protein}"></span> grams of Protein</p>
+                <p><span th:text="${knapsackResult.totalFat}"></span> grams of Fat</p>
+                <p><span th:text="${knapsackResult.totalCarbohydrate}"></span> grams of Carbohydrates</p>
+        </div>
+</body>
+</html>
