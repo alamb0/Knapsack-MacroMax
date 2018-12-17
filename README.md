@@ -2,12 +2,12 @@
 
 ## Environment and Dependencies from Vendor
 [IDE - IntelliJ IDEA](https://www.jetbrains.com/idea/)   
-[Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+[Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)   
 [Spring Boot](http://spring.io/projects/spring-boot)   
 [Thymeleaf](https://www.thymeleaf.org/)    
 [Lombok](https://projectlombok.org/)  
 [Spock](http://spockframework.org/)  
-[Apache Commons CSV](http://commons.apache.org/proper/commons-csv/) 
+[Apache Commons CSV](http://commons.apache.org/proper/commons-csv/)  
 [Bootstrap CSS](https://getbootstrap.com/)      
 [Gradle](https://gradle.org/)  
 [Nutrionix API and CSV File](https://www.nutritionix.com/)
