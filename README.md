@@ -18,7 +18,8 @@ Nutrionix API and CSV File https://www.nutritionix.com/
 Set the absolute path to sample csv file in the 
 `application.properties` file. 
 
-[Nutritionix](https://www.nutritionix.com/database)
+Add API and CSV from Nutritionix  
+[Powered by Nutritionix](https://www.nutritionix.com/database)
 
 Add `application.properties` to `src/main/resources`
 with the following properties 
