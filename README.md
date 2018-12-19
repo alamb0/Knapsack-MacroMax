@@ -12,7 +12,6 @@
 [Gradle](https://gradle.org/)  
 [Nutrionix API and CSV File](https://www.nutritionix.com/)
 
-**PROJECT WILL NOT COMPILE UNLESS LOMBOK PLUGIN IS INSTALLED IN INTELLIJ AND ANNOTATION PROCESSING IS TURNED ON**
 
 Set the absolute path to sample csv file in the 
 `application.properties` file. 
